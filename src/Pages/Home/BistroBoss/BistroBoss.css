@@ -1,0 +1,31 @@
+.bistro-boss-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .content-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .content-box h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .content-box p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
