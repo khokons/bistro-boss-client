@@ -2,10 +2,10 @@
 
 const Footer = () => {
     return (
-     <footer className="h-[470px] my-12">
+     <footer className="h-[370px] my-12">
 
       <div className="flex justify-between">
-        <div className="h-[400px] w-1/2 bg-[#1F2937] flex flex-col justify-center items-center text-center">
+        <div className="h-[300px] w-1/2 bg-[#1F2937] flex flex-col justify-center items-center text-center">
         <h3 className="text-lg font-semibold mb-4">CONTACT US</h3>
             <p>123 ABS Street, Uni 21, Bangladesh</p>
             <p>+88 123456789</p>
@@ -13,7 +13,7 @@ const Footer = () => {
             <p>Sat - Sun: 10:00 - 23:00</p>
         </div>
 
-        <div className="h-[400px] w-1/2 bg-[#111827] flex flex-col justify-center items-center text-center">
+        <div className="h-[300px] w-1/2 bg-[#111827] flex flex-col justify-center items-center text-center">
           <h3 className="text-lg font-semibold mb-4">Follow US</h3>
           <p>Join us on social media</p>
           <div className="flex space-x-4 mt-4">
