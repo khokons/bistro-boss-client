@@ -36,9 +36,6 @@ const Navbar = () => {
         <Link to="/order/salad">ORDER</Link>
       </li>
       <li>
-        <Link to="/secret">SECRET</Link>
-      </li>
-      <li>
         <Link to="/dashboard/cart">
           <button className="flex items-center">
             <FaCartPlus className="mr-2"></FaCartPlus>
@@ -89,7 +86,7 @@ const Navbar = () => {
             {navOptions}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Bistro-Boss</a>
+        <a className="btn btn-ghost text-xl uppercase">Bistro-Restaurant</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navOptions}</ul>
