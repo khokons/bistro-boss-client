@@ -11,6 +11,7 @@ import Secret from "../Pages/Shared/Secret/Secret";
 import Dashboard from "../Layout/Dashboard";
 import Cart from "../Pages/Dashboard/Cart/Cart";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import Contact from "../Pages/Contact/Contact";
 
 
 
@@ -39,6 +40,10 @@ export const router = createBrowserRouter([
         {
           path: '/signup',
           element: <SignUp></SignUp>
+        },
+        {
+          path: '/contact',
+          element: <Contact></Contact>
         }
 
       ]
