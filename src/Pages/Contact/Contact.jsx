@@ -84,7 +84,7 @@ const Contact = () => {
           </div>
           <div className="py-8">
             <h3 className="text-lg font-semibold mb-2">PHONE</h3>
-            <p className="text-sm">+38 (012) 34 56 789</p>
+            <p className="text-sm">+88 01633-347597</p>
           </div>
         </div>
         <div className="bg-white p-6 text-center rounded-lg shadow-md w-64 h-64">
@@ -93,7 +93,7 @@ const Contact = () => {
           </div>
           <div className="py-8">
             <h3 className="text-lg font-semibold mb-2">ADDRESS</h3>
-            <p className="text-sm">+38 (012) 34 56 789</p>
+            <p className="text-sm">Uttara, Sector 7, Road 9, House 480</p>
           </div>
         </div>
         <div className="bg-white p-6 text-center rounded-lg shadow-md w-64 h-64">

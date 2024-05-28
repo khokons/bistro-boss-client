@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../../../Providers/AuthProvider";
 import { FaCartPlus } from "react-icons/fa6";
 import useCart from "../../../Hooks/useCart";
+import defaultUser from '../../../assets/others/profile.png';
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -95,7 +96,13 @@ const Navbar = () => {
       <div className="navbar-end">
         <label tabIndex={0} className="btn btn-outline btn-circle avatar">
           <div className="w-10 h-10 rounded-full">
-          <Link to='/dashboard'>  {user && <img src={user.photoURL} alt="" />}</Link>
+          <Link to='/dashboard'>
+              {user ? (
+                <img src={user.photoURL} alt="User" />
+              ) : (
+                <img src={defaultUser} alt="Default User" />
+              )}
+            </Link>
           </div>
         </label>
         {/* <a className="btn">Image</a> */}
