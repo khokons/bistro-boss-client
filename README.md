@@ -5,6 +5,7 @@
 
 
 # Live link 
+ https://bistro-boss-886eb.web.app
  
 # Add at least 5 Project features
  ---
@@ -30,9 +31,9 @@ __Feedback and Support__
    - Provide customer support channels such as contact number, email, or help center to address user inquiries and issues.
 
 
- _Challenging of this project_ 
-
-__use hooks manage__
-__TanStack Query__
-__Admin Panel__
+# Challenging of this project
+ ---
+ - use hooks manage
+ - TanStack Query
+ - Admin Panel
 
